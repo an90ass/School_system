@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>938</width>
+    <height>656</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ana Sayfa</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>941</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(188, 163, 127);</string>
+    </property>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>30</y>
+       <width>821</width>
+       <height>571</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(234, 215, 187);</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>10</y>
+        <width>261</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>30</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Okul veri tabanı</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>90</y>
+        <width>461</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>30</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(17, 57, 70);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>[Anas Eskander AL-Maqtari]</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>170</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>30</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(17, 57, 70);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>[21670310176]</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>260</y>
+        <width>611</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>30</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>                       BSM303
+          Veritabanı Yönetim Sistemleri
+                     Final Ödevi
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>490</y>
+        <width>511</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>30</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(17, 57, 70);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Dr. Öğr. Üyesi Bayram AKGÜL</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>938</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Öğrenci işlemleri</string>
+    </property>
+    <widget class="QMenu" name="menuSorgulama">
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>Öğrenci No ile Sorgulama</string>
+     </property>
+     <addaction name="action_ogrenci_sorgulamasi"/>
+    </widget>
+    <addaction name="action_ogrenciler"/>
+    <addaction name="action_ogrenci_islemleri"/>
+    <addaction name="menuSorgulama"/>
+    <addaction name="actionOgrenci_notlarini_girme"/>
+    <addaction name="action_ogrenci_notlarini_degistirme"/>
+   </widget>
+   <widget class="QMenu" name="menuE_itmen_i_lemleri">
+    <property name="title">
+     <string>Öğretmen işlemleri</string>
+    </property>
+    <addaction name="action_ogretmenler"/>
+    <addaction name="action_egitmen_islemleri"/>
+    <addaction name="action_ogretmen_verdigi_dersler"/>
+   </widget>
+   <widget class="QMenu" name="menuSinif_i_lemleri">
+    <property name="title">
+     <string>Sinif işlemleri</string>
+    </property>
+    <widget class="QMenu" name="sinif_ad_ile_sorgulama">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>Sınıf adı ile sorgulama</string>
+     </property>
+     <addaction name="actionSinif_ogrencilerin_sorgulamas"/>
+    </widget>
+    <addaction name="actionSiniflar"/>
+    <addaction name="action_sinif_islemleri"/>
+    <addaction name="sinif_ad_ile_sorgulama"/>
+    <addaction name="actionSinifin_sorumlusu_degistir"/>
+    <addaction name="actionSinifin_dersleri"/>
+   </widget>
+   <widget class="QMenu" name="menuDers_i_lemleri">
+    <property name="title">
+     <string>Ders işlemleri</string>
+    </property>
+    <widget class="QMenu" name="action_ekle_si_deg">
+     <property name="title">
+      <string>Ekleme - Silme - Düzenleme</string>
+     </property>
+     <addaction name="actionDers_Ekleme"/>
+     <addaction name="actionDers_Silme"/>
+     <addaction name="actionDers_Duzenleme"/>
+    </widget>
+    <addaction name="action_ekle_si_deg"/>
+    <addaction name="actionDersi_veren_ogretmeni_degistirme"/>
+    <addaction name="actionDers_bilgilerini_arama"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menuE_itmen_i_lemleri"/>
+   <addaction name="menuSinif_i_lemleri"/>
+   <addaction name="menuDers_i_lemleri"/>
+  </widget>
+  <action name="action_ogrenci_islemleri">
+   <property name="text">
+    <string>Ekleme-Silme-Düzenleme</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="action_ogrenci_sorgulamasi">
+   <property name="text">
+    <string>Öğrenci sorgulaması</string>
+   </property>
+  </action>
+  <action name="sinif_ogrencilerin_sorgulamasi">
+   <property name="text">
+    <string>Sınıf öğrencilerin sorgulaması</string>
+   </property>
+  </action>
+  <action name="action_egitmen_islemleri">
+   <property name="text">
+    <string>Ekleme-Silme-Düzenleme</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+  </action>
+  <action name="action_sinif_islemleri">
+   <property name="text">
+    <string>Ekleme-Silme-Düzenleme</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionSinif_ogrencilerin_sorgulamas">
+   <property name="text">
+    <string>Sınıf öğrencilerin sorgulaması</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionDers_silme">
+   <property name="text">
+    <string>Ders silme</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionDers_duzenleme">
+   <property name="text">
+    <string>Ders düzenleme</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionSinifin_sorumlusu_degistir">
+   <property name="text">
+    <string>Sınıfın sorumlusu değiştirme</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionDers_Ekleme">
+   <property name="text">
+    <string>Ders Ekleme</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionDers_Silme">
+   <property name="text">
+    <string>Ders Silme</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionDers_Duzenleme">
+   <property name="text">
+    <string>Ders Düzenleme</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionDersi_veren_ogretmeni_degistirme">
+   <property name="text">
+    <string>Dersi veren öğretmeni değiştirme</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionSinifin_dersleri">
+   <property name="text">
+    <string>Sınıfın dersleri</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="action_ogretmen_verdigi_dersler">
+   <property name="text">
+    <string>Öğretmen verdiği dersler</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionDers_bilgilerini_arama">
+   <property name="text">
+    <string>Ders bilgilerini arama</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionOgrenci_notlarini_girme">
+   <property name="text">
+    <string>Öğrenci notlarını girme</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="action_ogrenci_notlarini_degistirme">
+   <property name="text">
+    <string>Öğrenci notlarını değiştirme</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="action_ogrenciler">
+   <property name="text">
+    <string>Öğrenciler</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="action_ogretmenler">
+   <property name="text">
+    <string>Öğretmenler</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionSiniflar">
+   <property name="text">
+    <string>Sınıflar</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
